@@ -1,0 +1,41 @@
+body{
+  background: #252528;
+  font-family: 'Raleway', sans-serif;
+}
+.menu{
+  list-style: none;
+  line-height: 42px;
+  margin: 2em auto;
+/*  outline: 1px solid red;*/
+  padding-left: 0;
+  width: 15em;
+
+}
+.menu a{
+  background: url(iconos.png) no-repeat left top;
+  color:#ddd;
+  display: block;
+  padding-left: 3em;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 100%;
+  -webkit-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+}
+.menu a:hover{
+  margin-left: 1em;
+}
+
+.menu li{
+  box-shadow: 3px 0 rgba(255,255,255,.2) inset;
+  margin-bottom: 5px;
+  padding-left: .8em;
+  /*outline: 1px solid green;*/
+  -webkit-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+}
+.menu li:hover{
+  box-shadow: 15em 0 rgba(255,255,255,.2) inset;
+}
